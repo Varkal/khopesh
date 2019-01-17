@@ -1,3 +1,3 @@
-
 def cli():
-    pass
+    from .app import KhopeshApp
+    KhopeshApp().run()
