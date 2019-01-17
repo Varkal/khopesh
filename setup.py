@@ -19,7 +19,7 @@ except FileNotFoundError:
     INSTALL_REQUIRES = []
 
 setup(
-    name='Khopesh',
+    name='khopesh',
     packages=['khopesh'],
     version=VERSION,
     description='',
@@ -36,6 +36,9 @@ setup(
     download_url='https://github.com/Varkal/khopesh/archive/{}.tar.gz'.format(VERSION),
     keywords=['Khopesh'],
     classifiers=[
-        "Programming Language :: Python :: 3"
+        "Programming Language :: Python :: 3",
+        "Development Status :: 3 - Alpha",
+        "Framework :: chuda",
+        "Intended Audience :: Developers"
     ],
 )
