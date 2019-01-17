@@ -38,7 +38,6 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "Development Status :: 3 - Alpha",
-        "Framework :: chuda",
         "Intended Audience :: Developers"
     ],
 )
