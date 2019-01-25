@@ -74,7 +74,7 @@ class KhopeshApp(App):
             if hooks.get("pre", None):
                 self.exec_hook(hooks["pre"])
 
-            executable(self.arguments.everything, _out=sys.stdout, _err=sys.stderr)
+            executable(self.arguments.everything, _fg=True)
 
             if hooks.get("post", None):
                 self.exec_hook(hooks["post"])
